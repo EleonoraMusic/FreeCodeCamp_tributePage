@@ -1,0 +1,107 @@
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+
+body {
+  background: #d4d4d4;
+}
+
+main {
+  background: #b6d3d4;
+  margin: 20px 30px auto;
+  border-radius: 50px;
+  box-shadow: -8px 5px 10px #bfbfbf;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
+  padding: 100px 100px 15px 100px;
+  margin: auto;
+  height: auto;
+  width: fit-content;
+}
+
+h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.5em;
+  letter-spacing: 0.9em;
+  text-align: center;
+  font-weight: bold;
+  border: solid 2px;
+  height: auto;
+  width: fit-content;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 0.5em;
+  }
+}
+
+#image {
+  max-width: 70%;
+  display: block;
+  height: auto;
+  margin:40px auto 10px auto;
+  border-radius: 50px;
+  box-shadow: -8px 5px 10px #bfbfbf;
+}
+
+#img-caption {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.blocco1{
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  height: auto;
+  width: fit-content;
+  margin: auto;
+}
+
+.subT {
+  height: 1em;
+  width: 1em;
+  padding: 0.5em 0.5em;
+  color: #fff;
+  background: #595959;
+  border-radius: 5px;
+  box-shadow: -3px 3px #000;
+  margin: 0.5em;
+}
+
+#tribute-info {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
+  text-align: left;
+  padding: 5px 100px 15px 100px;
+  margin: 2em auto;
+}
+
+blockquote {
+  margin: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h4 {
+  margin: 50px auto 20px auto;
+}
+
+#button {
+  margin-bottom: 3em;
+  height: 3em;
+  width: 8em;
+  border-radius: 5px;
+  background-color: #A40000;
+  color: white;
+}
